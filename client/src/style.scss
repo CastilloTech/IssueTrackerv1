@@ -1,0 +1,48 @@
+$body-color: blue;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#landhead {
+  text-align: center;
+  color: $body-color;
+}
+
+#guest {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  border-radius: 12px;
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+#progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#signup,
+#login {
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#form {
+  color: white;
+}
